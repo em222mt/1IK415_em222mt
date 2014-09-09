@@ -1,4 +1,6 @@
 1IK415_em222mt
 ==============
 
-Webbteknisk introduktion
+Repositorie för studier
+
+Här samlar jag allt kursmaterial till kursen Webbteknisk introduktion
