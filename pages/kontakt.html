@@ -18,9 +18,51 @@
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
         
-        <h3>Kontaktuppgifter</h3>
+        <h3>Kontakta mig</h3>
         
-        <p>Erik Myrsell<br>emt222mt@student.lnu.se</p>
+        <!-- Formulär börjar här -->
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+                <legend>Frågor och feedback</legend>
+            
+                    <label for="namn">Namn:</label>
+                    <input placeholder="Namn" type="text" name="namn" id="namn" />
+                    
+                    <label for="email">Email:</label>
+                    <input placeholder="Email" type="text" name="email" id="email" />
+                    
+                    <label for="twitter">Twitter:</label>
+                    <input placeholder="Twitter" type="text" name="twitter" id="twitter" />
+                    
+                    <label for="facebook">Facebook:</label>
+                    <input placeholder="Facebook" type="text" name="facebook" id="facebook" />
+
+                    <select name="fråga eller feedback">
+                        <option value="Fråga" selected> Fråga </option>
+                        <option value="Ris"> Ris </option>
+                        <option value="Ros"> Ros </option>
+                    </select>
+                
+                    <textarea col="10" rows="20"></textarea>
+                
+           </fieldset>
+           
+           <fieldset>
+               <legend>Kontakta mig via</legend>
+               
+                    <label for="recepientemail">Email</label>
+                    <input type="checkbox" name="recepientemail" id="recepientemaill" />
+                    <label for="recepienttwitter">Twitter</label>
+                    <input type="checkbox" name="recepienttwitter" id="recepienttwitter" />
+                    <label for="recepientfacebook">Facebook</label>
+                    <input type="checkbox" name="recepientfacebook" id="recepientfacebook" />
+            
+            </fieldset>
+            
+            <input type="submit" value="Skicka" />
+            
+        </form>
         
     </body>
 </html>
