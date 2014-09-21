@@ -1,0 +1,44 @@
+/*Här börjar stilmallen*/
+
+a:link 	    { color: silver; }
+a:visited 	{ color: gray; }
+a:focus 	{ color: purple; }
+a:hover	    { color: blue; }
+a:active 	{ color: black; }
+
+#container {
+    max-width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+}
+#header {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 958px;
+}
+
+#navigation {
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    width: 148px;
+}
+
+#content {
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    max-width: 808px;
+    
+}
+
+#footer {
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    max-width: 958px;
+}
+
+#gubbe {
+    max-width: 450px;
+}

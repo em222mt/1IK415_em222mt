@@ -1,170 +1,192 @@
 <!doctype html>
-    <html lang="sv">
+<html lang="sv">
 
-    <head>
-       <meta charset="utf-8">
-        <title>Laborationer</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Laborationer</title>
+    
+    <link rel="stylesheet" href="../css/basic.css">
+</head>
 
     <body>
-        <h1>Laborationer</h1>
+    
+        <div id="container">
         
-        <p>Erik Myrsell:s sida</p>
-        
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-       
-        <h2>Webbteknisk introduktion</h2>
-        
-        <ul>
-            <li><a href="#labb1">Laboration 1</a></li>
-            <li><a href="#labb2">Laboration 2</a></li>
-        </ul>
-        
-        <h3>Resultat</h3>
-        
-        <table id="tabell" border="1">
-            <thead>
-                    <tr>
-                        <th>Laboration</th>
-                        <th>Uppgift</th>
-                        <th>Status</th>
-                        <th>Redovisad</th>
-                    </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td colspan="4">Laborationsresultat gällande Erik Myrsell</td>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td rowspan="9">1</td>
-                    <td>1</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                        
-                <tr>
-                    <td>2</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>Färdig</td>
-                    <td>21-09-14</td>
-                </tr>
-                <tr>
-                    <td rowspan="8">2</td>
-                    <td>1</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                 <tr>
-                    <td>4</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                 <tr>
-                    <td>5</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                 <tr>
-                    <td>7</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                 <tr>
-                    <td>8</td>
-                    <td>Ej påbörjad</td>
-                    <td></td>
-                </tr>
-                
-            </tbody>
-        </table>
-        
-        <h3 id="labb1">Laboration 1</h3>
-        
-        <p>Upggifter:</p>
-        
-        <ol>
-            <li>Check</li>
-            <li><a href="presentation.html">Ett första dokument</a></li>
-            <li><a href="../index.html">Startsidan</a></li>
-            <li>Absoluta och rena sökvägar
-                <ol>
-                    <li>Skriv den absoluta sökvägen till filen bottom.html.<br>"a-tagg" href="http://www.server.se/html/pages/bottom.html">Bottom</li>
-                    <li>Skriv den relativa sökvägen från filen default.html till filen top.html.<br>pages/top.html eller "a-tagg" href="pages/top.html">Top</li>
-                    <li>Skriv den relativa sökvägen från filen bottom.html till filen index.html.<br>../../index.html eller "a-tagg" href="../../index.html">Index</li>
-                    <li>Skriv den absoluta sökvägen till filen index.html.<br> "a-tagg" href="http://www.server.se/index.html">Index</li>
-                    <li>Skriv den relativa sökvägen från filen top.html till filen bottom.html.<br>bottom.html eller "a-tagg" href="bottom.html">Bottom</li>
-                    <li>Skriv den relativa sökvägen från filen index.html till filen top.html.<br>html/pages/top.html eller "a-tagg" href="html/pages/top.html">Top.html</li>
-                </ol>
-            </li>
-            <li>Länkar och mer listor. Denna sida gäller som exempel</li>
-            <li>Bilder
-                <ol>
-                    <li><a href="presentation.html#bild">Gå till bild</a></li>
-                    <li><a href="../pics/Logo3.png">Gå till logotyp</a></li>
-                    <li><a href="../index.html#inlägg2">Gå till blogginlägg 2</a></li>
-                </ol>
-            </li>
-            <li><a href="../index.html#inlägg3">Videoklipp</a></li>
-            <li><a href="#tabell">Tabell</a></li>
-            <li><a href="kontakt.html#form">Formulär</a></li>
+            <div id="header">
             
-        </ol>
-        
+            <h1>Laborationer</h1>
+            <p>Erik Myrsell:s sida</p>
+            
+            </div>
+            
+    
+            <div id="navigation">
+            
+            <ul>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            
+            </div>
+            
+            <div id="content">
+            <h2>Webbteknisk introduktion</h2>
+            
+            <ul>
+                <li><a href="#labb1">Laboration 1</a></li>
+                <li><a href="#labb2">Laboration 2</a></li>
+            </ul>
+            
+            <h3>Resultat</h3>
+            
+            <table id="tabell" border="1">
+                <thead>
+                        <tr>
+                            <th>Laboration</th>
+                            <th>Uppgift</th>
+                            <th>Status</th>
+                            <th>Redovisad</th>
+                        </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Laborationsresultat gällande Erik Myrsell</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td rowspan="9">1</td>
+                        <td>1</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                            
+                    <tr>
+                        <td>2</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Färdig</td>
+                        <td>21-09-14</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="8">2</td>
+                        <td>1</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>5</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>7</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>8</td>
+                        <td>Ej påbörjad</td>
+                        <td></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            
+            <h3 id="labb1">Laboration 1</h3>
+            
+            <p>Upggifter:</p>
+            
+            <ol>
+                <li>Check</li>
+                <li><a href="presentation.html">Ett första dokument</a></li>
+                <li><a href="../index.html">Startsidan</a></li>
+                <li>Absoluta och rena sökvägar
+                    <ol>
+                        <li>Skriv den absoluta sökvägen till filen bottom.html.<br>"a-tagg" href="http://www.server.se/html/pages/bottom.html">Bottom</li>
+                        <li>Skriv den relativa sökvägen från filen default.html till filen top.html.<br>pages/top.html eller "a-tagg" href="pages/top.html">Top</li>
+                        <li>Skriv den relativa sökvägen från filen bottom.html till filen index.html.<br>../../index.html eller "a-tagg" href="../../index.html">Index</li>
+                        <li>Skriv den absoluta sökvägen till filen index.html.<br> "a-tagg" href="http://www.server.se/index.html">Index</li>
+                        <li>Skriv den relativa sökvägen från filen top.html till filen bottom.html.<br>bottom.html eller "a-tagg" href="bottom.html">Bottom</li>
+                        <li>Skriv den relativa sökvägen från filen index.html till filen top.html.<br>html/pages/top.html eller "a-tagg" href="html/pages/top.html">Top.html</li>
+                    </ol>
+                </li>
+                <li>Länkar och mer listor. Denna sida gäller som exempel</li>
+                <li>Bilder
+                    <ol>
+                        <li><a href="presentation.html#bild">Gå till bild</a></li>
+                        <li><a href="../pics/Logo3.png">Gå till logotyp</a></li>
+                        <li><a href="../index.html#inlägg2">Gå till blogginlägg 2</a></li>
+                    </ol>
+                </li>
+                <li><a href="../index.html#inlägg3">Videoklipp</a></li>
+                <li><a href="#tabell">Tabell</a></li>
+                <li><a href="kontakt.html#form">Formulär</a></li>
+                
+            </ol>
+            
+            </div>
+            
+            <div id="footer">
+            
+                <p>Erik Myrsell ansvarar för den här sidan</p>
+                
+            </div>
+        </div>
     </body>
 </html>
