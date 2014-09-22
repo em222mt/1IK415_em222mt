@@ -33,13 +33,40 @@ text-color: #372D53
     background-color: #51476F;
 }
 
+#navigation ul {
+    border: 1px solid black;
+    border-bottom: none;
+    width: 148px;
+    margin: 0; padding: 0;
+}
+
+#navigation li {
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+#navigation li a {
+    display: block;
+    padding: 10px;
+    background-color: #51476F;
+    color: black;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    background-color: #B4B0C0;
+    color: #51476F;
+    text-decoration: none;
+}
+
+
 #content {
     border-style: solid;
     border-width: 1px;
     float: left;
     max-width: 808px;
     background-color: #B4B0C0;
-    
 }
 
 #footer {
