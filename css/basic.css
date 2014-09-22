@@ -1,17 +1,18 @@
-/*Här börjar stilmallen*/
-
-a:link 	    { color: black; }
-a:visited 	{ color: gray; }
-a:focus 	{ color: #838283; }
-a:hover	    { color: #2F4F4F; }
-a:active 	{ color: #FFFFFF; }
-
+/*Layout*/
 /*
 Background main: #FFFFFF
 Background aside: #838283
 Background header/footer: #D1D1D1
 text-color: #646466
 */
+
+a:link 	    { color: black; }
+a:visited 	{ color: gray; }
+a:focus 	{ color: #838283; }
+a:hover	    { color: #6495ED; }
+a:active 	{ color: #FFFFFF; }
+
+/*Container, header, footer och navigation*/
 
 #container {
     max-width: 960px;
@@ -84,13 +85,15 @@ text-color: #646466
     background-color: #D1D1D1;
 }
 
+/*Storleksanpassat bild i inlägg 2*/
 #gubbe {
     max-width: 450px;
 }
 
+/*fonts*/
 p, h1, h2, h3, ul, ol, li, form, table {
     color: #646466;
-    font-family: georgia , serif;
+    font-family: courier , serif;
     line-height: 120%;
     width: 600px;
 }
@@ -99,6 +102,7 @@ table {
     width: 90%;
 }
 
+/*Lagt till padding för att bulka upp index- och kontaktsidan.*/
 #blogg {
     padding-right: 20px;
     padding-left: 20px;
@@ -109,11 +113,14 @@ table {
     padding-left: 20px;
 }
 
+/*anpassat headerns text*/
 .headertitle {
     text-align: center;
     color: black;
+    font-size: 2.25em;
 }
 
+/*Lagt till en bild vid blogginläggen*/
 h3.entry {
     background-image: url(../pics/post.png);
     background-repeat: no-repeat;
