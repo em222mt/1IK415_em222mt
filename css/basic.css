@@ -21,8 +21,11 @@ text-color: #372D53
 #header {
     border-style: solid;
     border-width: 1px;
-    max-width: 958px;
+    width: 958px;
     background-color: #8A839E;
+    background-image: url(../pics/Logo3.png);
+    background-size: cover;
+    height: 200px;
 }
 
 #navigation {
