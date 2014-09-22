@@ -1,16 +1,23 @@
 /*Här börjar stilmallen*/
 
-a:link 	    { color: #372D53; }
+a:link 	    { color: black; }
 a:visited 	{ color: gray; }
-a:focus 	{ color: #51476F; }
-a:hover	    { color: #8A839E; }
-a:active 	{ color: black; }
+a:focus 	{ color: #838283; }
+a:hover	    { color: #2F4F4F; }
+a:active 	{ color: #FFFFFF; }
 
 /*
 Background main: #B4B0C0
 Background aside: #51476F
 Background header/footer: #8A839E
 text-color: #372D53
+*/
+
+/*
+Background main: #FFFFFF
+Background aside: #838283
+Background header/footer: #D1D1D1
+text-color: #646466
 */
 
 #container {
@@ -22,9 +29,9 @@ text-color: #372D53
     border-style: solid;
     border-width: 1px;
     width: 958px;
-    background-color: #8A839E;
-    background-image: url(../pics/Logo3.png);
-    background-size: cover;
+    background-color: #D1D1D1;
+    background-image: url(../pics/Logo4.png);
+    background-position: left;
     height: 200px;
 }
 
@@ -33,7 +40,7 @@ text-color: #372D53
     border-width: 1px;
     float: left;
     width: 148px;
-    background-color: #51476F;
+    background-color: #838283;
 }
 
 #navigation ul {
@@ -52,13 +59,13 @@ text-color: #372D53
 #navigation li a {
     display: block;
     padding: 10px;
-    background-color: #51476F;
+    background-color: #838283;
     color: black;
     text-decoration: none;
 }
 
 #navigation li a:hover {
-    background-color: #B4B0C0;
+    background-color: white;
     color: #51476F;
     text-decoration: none;
 }
@@ -69,7 +76,7 @@ text-color: #372D53
     border-width: 1px;
     float: left;
     max-width: 808px;
-    background-color: #B4B0C0;
+    background-color: #FFFFFF;
     padding-right: 84px;
     padding-left: 84px;
 }
@@ -79,7 +86,7 @@ text-color: #372D53
     border-width: 1px;
     clear: both;
     max-width: 958px;
-    background-color: #8A839E;
+    background-color: #D1D1D1;
 }
 
 #gubbe {
@@ -87,7 +94,7 @@ text-color: #372D53
 }
 
 p, h1, h2, h3, ul, ol, li, form, table {
-    color: #372D53;
+    color: #646466;
     font-family: georgia , serif;
     line-height: 120%;
     width: 600px;
@@ -106,4 +113,8 @@ table {
 #contact {
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.headertitle {
+    color: black;
 }
