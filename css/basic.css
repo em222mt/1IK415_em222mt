@@ -98,16 +98,35 @@ a:active 	{ color: #FFFFFF; }
 }
 
 /*fonts*/
-h1, h2, h3, ul, ol, li, form, table {
+h1, h2, h3, ul, ol, li, form {
     color: #646466;
     font-family: courier , serif;
     line-height: 130%;
     width: 640px;
 }
 
-table {
-    width: 90%;
+/*Tabell på laboraion.html*/
+#content table tr td {
+    width: 40%;
+    border: 2px solid #838283;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
 }
+
+#table th {
+    border: 2px solid #838283;
+    font-size: 1.03em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+tfoot {
+    font-size: 1.03em;
+}
+
+/*--------------------------*/
 
 Lagt till padding för att bulka upp index- och kontaktsidan.
 #blogg {
@@ -136,4 +155,5 @@ h3.entry {
 }
 .entrypic {
     float: right;
+    width: 35%;
 }
