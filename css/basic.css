@@ -1,4 +1,3 @@
-/*Layout*/
 /*
 Background main: #FFFFFF
 Background aside: #838283
@@ -6,19 +5,26 @@ Background header/footer: #D1D1D1
 text-color: #646466
 */
 
+/*Layout*/
+
 a:link 	    { color: black; }
 a:visited 	{ color: gray; }
 a:focus 	{ color: #838283; }
 a:hover	    { color: #6495ED; }
 a:active 	{ color: #FFFFFF; }
 
-/*Container, header, footer och navigation*/
+/*Container*/
 
 #container {
     max-width: 960px;
     overflow: auto;
     margin: 0 auto;
 }
+
+/*----------------------------------------*/
+
+/*Header*/
+
 #header {
     border-style: solid;
     border-width: 1px;
@@ -31,17 +37,17 @@ a:active 	{ color: #FFFFFF; }
     height: 200px;
 }
 
+/*----------------------------------------*/
+
+/*Navigation*/
+
 #navigation {
-    border-style: solid;
-    border-width: 1px;
     float: left;
     width: 148px;
     background-color: #838283;
 }
 
 #navigation ul {
-    border: 1px solid black;
-    border-bottom: none;
     width: 148px;
     margin: 0; padding: 0;
 }
@@ -66,10 +72,32 @@ a:active 	{ color: #FFFFFF; }
     text-decoration: none;
 }
 
+#navigation ul li .active {
+    background-color: white;
+    border-right: none;
+}
+
+#navigation ul li:firstchild {
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#navigation > ul > li:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-indent: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*----------------------------------------*/
+
+/*Content*/
 
 #content {
-    border-style: solid;
-    border-width: 1px;
     float: left;
     max-width: 808px;
     background-color: #FFFFFF;
@@ -84,6 +112,10 @@ a:active 	{ color: #FFFFFF; }
     width: 640px;
 }
 
+/*----------------------------------------*/
+
+/*Footer*/
+
 #footer {
     border-style: solid;
     border-width: 1px;
@@ -91,6 +123,8 @@ a:active 	{ color: #FFFFFF; }
     max-width: 958px;
     background-color: #D1D1D1;
 }
+
+/*----------------------------------------*/
 
 /*Storleksanpassat bild i inlägg 2*/
 #gubbe {
@@ -105,7 +139,10 @@ h1, h2, h3, ul, ol, li, form {
     width: 640px;
 }
 
-/*Tabell på laboraion.html*/
+/*----------------------------------------*/
+
+/*Tabell på laboration.html*/
+
 #content table tr td {
     width: 40%;
     border: 2px solid #838283;
@@ -126,9 +163,9 @@ tfoot {
     font-size: 1.03em;
 }
 
-/*--------------------------*/
+/*----------------------------------------*/
 
-Lagt till padding för att bulka upp index- och kontaktsidan.
+/*Lagt till padding för att bulka upp index- och kontaktsidan.*/
 #blogg {
     padding-right: 30px;
     padding-left: 30px;
@@ -139,14 +176,20 @@ Lagt till padding för att bulka upp index- och kontaktsidan.
     padding-left: 20px;
 }
 
-/*anpassat headerns text*/
+/*----------------------------------------*/
+
+/*Anpassat headerns text*/
+
 .headertitle {
     text-align: center;
     color: black;
     font-size: 2.25em;
 }
 
+/*----------------------------------------*/
+
 /*Lagt till en bild vid blogginläggen*/
+
 h3.entry {
     background-image: url(../pics/post.png);
     background-repeat: no-repeat;
@@ -157,3 +200,18 @@ h3.entry {
     float: right;
     width: 35%;
 }
+
+/*----------------------------------------*/
+
+/*Formulär*/
+
+#form fieldset {
+    width: 350px;
+    background-color: #D1D1D1;
+}
+
+#formframe {
+    font-weight: bold;
+}
+
+/*----------------------------------------*/

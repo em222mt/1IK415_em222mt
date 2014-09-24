@@ -20,9 +20,10 @@
             <div id="navigation">
             
             <ul>
-                <li><a href="../index.html" class="active">Start</a></li>
-                <li><a href="laborationer.html" class="active">Laborationer</a></li>
-                <li><a href="presentation.html" class="active">Presentation</a></li>
+                <li>Meny</li>
+                <li><a href="../index.html">Start</a></li>
+                <li><a href="laborationer.html">Laborationer</a></li>
+                <li><a href="presentation.html">Presentation</a></li>
                 <li><a href="kontakt.html" class="active">Kontakt</a></li>
             </ul>
             
@@ -38,43 +39,45 @@
             
             <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                 <fieldset>
-                    <legend>Frågor och feedback</legend>
+                    <legend id="formframe">Frågor och feedback</legend>
                 
-                        <label for="namn">Namn:</label>
-                        <input placeholder="Namn" type="text" name="namn" id="namn" />
+                        <label for="namn">Namn:</label></br>
+                        <input placeholder="Namn" type="text" name="namn" id="namn" /></br>
                         
-                        <label for="email">Email:</label>
-                        <input placeholder="Email" type="text" name="email" id="email" />
+                        <label for="email">Email:</label></br>
+                        <input placeholder="Email" type="text" name="email" id="email" /></br>
                         
-                        <label for="twitter">Twitter:</label>
-                        <input placeholder="Twitter" type="text" name="twitter" id="twitter" />
+                        <label for="twitter">Twitter:</label></br>
+                        <input placeholder="Twitter" type="text" name="twitter" id="twitter" /></br>
                         
-                        <label for="facebook">Facebook:</label>
-                        <input placeholder="Facebook" type="text" name="facebook" id="facebook" />
-    
-                        <select name="fråga eller feedback">
+                        <label for="facebook">Facebook:</label></br>
+                        <input placeholder="Facebook" type="text" name="facebook" id="facebook" /></br>
+                        
+                        </br>
+                        <select name="fråga eller feedback"></br>
                             <option value="Fråga" selected> Fråga </option>
                             <option value="Ris"> Ris </option>
                             <option value="Ros"> Ros </option>
                         </select>
-                    
-                        <textarea cols="20" rows="20"></textarea>
+                        </br>
+                        
+                        <textarea id="formtext" for="textarea" cols="20" rows="20" placeholder="Skriv din fråga eller kritik här" type="text" name="textarea" id="textarea"></textarea>
                     
                </fieldset>
                
                <fieldset>
-                   <legend>Kontakta mig via</legend>
+                   <legend id="formframe">Kontakta dig via</legend>
                    
-                        <label for="recepientemail">Email</label>
+                        <label for="recepientemail">Email:</label>
                         <input type="checkbox" name="recepientemail" id="recepientemail" />
-                        <label for="recepienttwitter">Twitter</label>
+                        <label for="recepienttwitter">Twitter:</label>
                         <input type="checkbox" name="recepienttwitter" id="recepienttwitter" />
-                        <label for="recepientfacebook">Facebook</label>
+                        <label for="recepientfacebook">Facebook:</label>
                         <input type="checkbox" name="recepientfacebook" id="recepientfacebook" />
                 
                 </fieldset>
                 
-                <input type="submit" value="Skicka" />
+                <input id="formsubmit" type="submit" value="Skicka" />
                 
             </form>
             
