@@ -1,0 +1,114 @@
+/*
+Background main: #FFFFFF
+Background aside: #838283
+Background header/footer: #D1D1D1
+text-color: #646466
+*/
+
+/*Layout*/
+
+a:link 	    { color: black; }
+a:visited 	{ color: gray; }
+a:focus 	{ color: #838283; }
+a:hover	    { color: #6495ED; }
+a:active 	{ color: #FFFFFF; }
+
+/*Tryck ihop text för utskrift och ändra färgr*/
+
+@media print { 
+    a, h1, h2, h3, p, table {  
+        color: #000000; 
+        background-color: #ffffff;
+        max-width: 500px;
+    }
+}
+
+@media print { 
+    ul, ol, dl, li {  
+        color: #000000; 
+        background-color: #ffffff;
+        max-width: 400px;
+    }
+}
+/*--------------------------------------*/
+
+/*Content*/
+@media print { 
+    #content {  
+        color: #000000; 
+        background-color: #ffffff; 
+        /*display: none;*/
+        border: none;
+        max-width: 960px;
+    }
+}
+/*--------------------------------------*/
+
+/*Dölj bilder och annan media*/
+
+@media print { 
+    #gubbe {
+        display: none;
+    }
+}
+
+@media print { 
+#blogg > div:nth-child(2) > img {
+    display: none;
+}
+}
+
+@media print { 
+.video {
+    display: none;
+}
+}
+
+@media print { 
+#bild {
+    display: none;
+}
+}
+/*--------------------------------------*/
+
+@media print{
+       a:after{content:" (" attr(href) ") ";
+           
+       }
+}
+/*Navigation*/
+
+@media print { 
+#navigation {
+    display: none;
+    border: none;
+    color: #ffffff; 
+    background-color: #ffffff;
+    }
+}
+/*--------------------------------------*/
+
+/*header*/
+
+@media print { 
+    #header {   
+        color: #ffffff; 
+        background-color: #ffffff; 
+        display: none;
+        border: none;
+        border-style: none;
+    }
+}
+/*--------------------------------------*/
+
+/*header*/
+@media print { 
+    #footer {   
+        color: #000000; 
+        background-color: #ffffff; 
+        display: none;
+        border: none;
+        border-style: none;
+    }
+}
+/*--------------------------------------*/
