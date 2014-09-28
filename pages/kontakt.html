@@ -22,10 +22,10 @@
             
             <ul>
                 <li>Meny</li>
-                <li><a href="../index.html">Start</a></li>
-                <li><a href="laborationer.html">Laborationer</a></li>
-                <li><a href="presentation.html">Presentation</a></li>
-                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+                <li><a href="../index.html">Start</a><a id="home-icon" href="../index.html"></a></li>
+                <li><a href="laborationer.html">Laborationer</a><a id="work-icon" href="laborationer.html"></a></li>
+                <li><a href="presentation.html">Presentation</a><a id="bio-icon" href="presentation.html"></a></li>
+                <li class="active"><a href="kontakt.html">Kontakt</a><a id="contact-icon" href="kontakt.html"></a></li>
             </ul>
             
             </div>
@@ -40,34 +40,34 @@
             
             <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                 <fieldset>
-                    <legend id="formframe">Frågor och feedback</legend>
+                    <legend class="formframe">Frågor och feedback</legend>
                 
-                        <label for="namn">Namn:</label></br>
-                        <input placeholder="Namn" type="text" name="namn" id="namn" /></br>
+                        <label class="formunit" for="namn">Namn:</label>
+                        <input class="formunit" placeholder="Namn" type="text" name="namn" id="namn" />
                         
-                        <label for="email">Email:</label></br>
-                        <input placeholder="Email" type="text" name="email" id="email" /></br>
+                        <label class="formunit" for="email">Email:</label>
+                        <input class="formunit" placeholder="Email" type="text" name="email" id="email" />
                         
-                        <label for="twitter">Twitter:</label></br>
-                        <input placeholder="Twitter" type="text" name="twitter" id="twitter" /></br>
+                        <label class="formunit" for="twitter">Twitter:</label>
+                        <input class="formunit" placeholder="Twitter" type="text" name="twitter" id="twitter" />
                         
-                        <label for="facebook">Facebook:</label></br>
-                        <input placeholder="Facebook" type="text" name="facebook" id="facebook" /></br>
+                        <label class="formunit" for="facebook">Facebook:</label>
+                        <input class="formunit" placeholder="Facebook" type="text" name="facebook" id="facebook" />
                         
-                        </br>
-                        <select name="fråga eller feedback"></br>
+                        
+                        <select name="fråga eller feedback">
                             <option value="Fråga" selected> Fråga </option>
                             <option value="Ris"> Ris </option>
                             <option value="Ros"> Ros </option>
                         </select>
-                        </br>
                         
-                        <textarea id="formtext" for="textarea" cols="20" rows="20" placeholder="Skriv din fråga eller kritik här" type="text" name="textarea" id="textarea"></textarea>
+                        
+                        <textarea class="formunit" id="formtext" for="textarea" cols="20" rows="20" placeholder="Skriv din fråga eller kritik här"></textarea>
                     
                </fieldset>
                
                <fieldset>
-                   <legend id="formframe">Kontakta dig via</legend>
+                   <legend class="formframe">Kontakta dig via</legend>
                    
                         <label for="recepientemail">Email:</label>
                         <input type="checkbox" name="recepientemail" id="recepientemail" />

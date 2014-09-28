@@ -10,7 +10,7 @@ text-color: #646466
 a:link 	    { color: black; }
 a:visited 	{ color: gray; }
 a:focus 	{ color: #838283; }
-a:hover	    { color: #6495ED; }
+a:hover	    { color: #6495ED; background-color: white;}
 a:active 	{ color: #FFFFFF; }
 
 /*Container*/
@@ -41,56 +41,73 @@ a:active 	{ color: #FFFFFF; }
 
 /*Navigation*/
 
-#navigation {
+#navigation{
     float: left;
-    width: 148px;
+    color: #646466;
     background-color: #838283;
+    width: 168px;
+}
+
+#navigation li{
+    border-bottom: 1px solid black;
+    height: 64px;
+}
+
+#navigation a{
+    float: left;
 }
 
 #navigation ul {
-    width: 148px;
-    margin: 0; padding: 0;
-}
-
-#navigation li {
     list-style-type: none;
-    border-bottom: 1px solid black;
-    text-decoration: none;
-}
-
-#navigation li a {
-    display: block;
-    padding: 10px;
-    background-color: #838283;
-    color: black;
-    text-decoration: none;
-}
-
-#navigation li a:hover {
-    background-color: white;
-    color: #51476F;
-    text-decoration: none;
-}
-
-#navigation ul li .active {
-    background-color: white;
-    border-right: none;
-}
-
-#navigation ul li:firstchild {
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin: 0; 
+    padding: 0;
 }
 
 #navigation > ul > li:nth-child(1){
     color: black;
     font-weight: bold;
     font-size: 1.2em;
-    text-indent: 12px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    text-align: center;
+}
+
+#navigation a:nth-child(2) {
+    float: left;
+    background-image: url(pics/sprite.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 20px;
+}
+
+#home-icon          { background-position: 0 -48px;}
+#home-icon:hover    { background-position: 0 0;}
+
+#work-icon          { background-position: 0 -144px; }
+#work-icon:hover    { background-position: 0 -96px; }
+
+#bio-icon           { background-position: 0 -240px;}
+#bio-icon:hover     { background-position: 0 -192px;}
+
+#contact-icon       { background-position: 0 -336px;}
+#contact-icon:hover { background-position: 0 -288px;}
+
+
+#navigation a:nth-child(1){
+    display: block;
+    width: 144px;
+    height: 43px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+#navigation li:hover:nth-child(n+2) { color: #6495ED; background-color: white;}
+
+li.active {
+    background-color: white;
 }
 
 /*----------------------------------------*/
@@ -99,10 +116,10 @@ a:active 	{ color: #FFFFFF; }
 
 #content {
     float: left;
-    max-width: 808px;
+    max-width: 788px;
     background-color: #FFFFFF;
-    padding-right: 84px;
-    padding-left: 84px;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 #content, p {
@@ -132,11 +149,10 @@ a:active 	{ color: #FFFFFF; }
 }
 
 /*fonts*/
-h1, h2, h3, ul, ol, li, form {
+h1, h2, h3, ul, ol, li, form, a {
     color: #646466;
     font-family: courier , serif;
     line-height: 130%;
-    width: 640px;
 }
 
 /*----------------------------------------*/
@@ -181,7 +197,7 @@ tfoot {
 /*Anpassat headerns text*/
 
 .headertitle {
-    text-align: center;
+    text-indent: 360px;
     color: black;
     font-size: 2.25em;
 }
@@ -210,8 +226,12 @@ h3.entry {
     background-color: #D1D1D1;
 }
 
-#formframe {
+.formframe {
     font-weight: bold;
 }
 
+.formunit {
+    float: left;
+    width: 100%;
+}
 /*----------------------------------------*/
