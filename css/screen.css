@@ -1,0 +1,408 @@
+/*Layout*/
+
+a:link 	    { color: black; }
+a:visited 	{ color: gray; }
+a:focus 	{ color: #838283; }
+a:hover	    { color: #6495ED; background-color: white;}
+a:active 	{ color: #FFFFFF; }
+
+/*Fonts*/
+h1, h2, h3, ul, ol, li, form, a, p {
+    color: #646466;
+    font-family: courier , serif;
+    line-height: 130%;
+}
+
+/*Container*/
+
+#container {
+    width: auto;
+    /*max-width: 100%;*/
+    /*overflow: auto;*/
+    /*margin: 0 auto;*/
+}
+
+/*----------------------------------------*/
+
+/*Header*/
+
+#header {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 100%;
+    background-color: #D1D1D1;
+    background-image: url(../pics/Logo5.png);
+    background-repeat: repeat;
+    background-position: left;
+    text-align: center;
+}
+/*#header h1 {*/
+/*    text-align: left;*/
+/*}*/
+
+#navigation {
+        width: auto;
+}
+
+#content {
+        width: auto;
+        float: none;
+        text-align: left;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+}
+#footer {
+    max-width: 320px;
+}
+
+/*Navigation*/
+
+#navigation{
+    color: #646466;
+    background-color: #838283;
+    max-width: 100%;
+}
+
+#navigation li{
+    border-bottom: 1px solid black;
+    height: 64px;
+}
+
+#navigation a{
+    float: left;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+#navigation > ul > li:nth-child(1){
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#navigation a:nth-child(2) {
+    float: right;
+    background-image: url(pics/sprite.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 20px;
+}
+
+#home-icon          { background-position: 0 -48px;}
+#home-icon:hover    { background-position: 0 0;}
+
+#work-icon          { background-position: 0 -144px; }
+#work-icon:hover    { background-position: 0 -96px; }
+
+#bio-icon           { background-position: 0 -240px;}
+#bio-icon:hover     { background-position: 0 -192px;}
+
+#contact-icon       { background-position: 0 -336px;}
+#contact-icon:hover { background-position: 0 -288px;}
+
+
+#navigation a:nth-child(1){
+    display: block;
+    width: 280px;
+    height: 43px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#navigation li:hover:nth-child(n+2) { color: #6495ED; background-color: white;}
+
+li.active {
+    background-color: white;
+}
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+/*#biopic{*/
+/*    max-width: 100%;*/
+/*}*/
+
+h3.entry {
+    background-image: url(../pics/post.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    text-indent: 35px;
+}
+
+.headertitle {
+    color: black;
+    font-size: 2.25em;
+}
+
+h3 {
+    text-align: center;
+}
+
+#footer {
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    max-width: auto;
+    background-color: #D1D1D1;
+}
+
+/*Formulär*/
+
+#form fieldset {
+    max-width: 100%;
+    background-color: #D1D1D1;
+}
+
+.formframe {
+    font-weight: bold;
+}
+
+.formunit {
+    float: left;
+    width: 100%;
+}
+
+#recepientemail
+{
+    width: 70%;
+}
+
+#recepienttwitter
+{
+    width: 60%;
+}
+
+#recepientfacebook
+{
+    width: 50%;
+}
+
+#formsubmit
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    alignment-adjust: middle;
+}
+/*----------------------------------------*/
+
+/*Tabell på laboration.html*/
+
+#content table tr td {
+    width: 40%;
+    border: 2px solid #838283;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+#table th {
+    border: 2px solid #838283;
+    font-size: 1.03em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+tfoot {
+    font-size: 1.03em;
+}
+
+#content > ol:nth-child(7) > li:nth-child(4) > ol > li{
+
+    word-break: break-all;
+}
+
+/*----------------------------------------*/
+
+/*
+Background main: #FFFFFF
+Background aside: #838283
+Background header/footer: #D1D1D1
+text-color: #646466
+*/
+
+/*Layout*/
+
+
+
+/*Container*/
+
+/*#container {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Header*/
+
+/*#header {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Navigation*/
+
+/*#navigation{*/
+
+/*}*/
+
+/*#navigation li{*/
+
+/*}*/
+
+/*#navigation a{*/
+
+/*}*/
+
+/*#navigation ul {*/
+
+/*}*/
+
+/*#navigation > ul > li:nth-child(1){*/
+
+/*}*/
+
+/*#navigation a:nth-child(2) {*/
+
+/*}*/
+
+/*#home-icon          { background-position: 0 -48px;}*/
+/*#home-icon:hover    { background-position: 0 0;}*/
+
+/*#work-icon          { background-position: 0 -144px; }*/
+/*#work-icon:hover    { background-position: 0 -96px; }*/
+
+/*#bio-icon           { background-position: 0 -240px;}*/
+/*#bio-icon:hover     { background-position: 0 -192px;}*/
+
+/*#contact-icon       { background-position: 0 -336px;}*/
+/*#contact-icon:hover { background-position: 0 -288px;}*/
+
+
+/*#navigation a:nth-child(1){*/
+
+
+/*}*/
+
+/*#navigation li:hover:nth-child(n+2) { color: #6495ED; background-color: white;}*/
+
+/*li.active {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Content*/
+
+/*#content {*/
+
+/*}*/
+
+/*#content, p {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Footer*/
+
+/*#footer {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Presentation*/
+
+/*#biopic{*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Storleksanpassat bild i inlägg 2*/
+/*#gubbe {*/
+
+/*}*/
+
+/*fonts*/
+/*h1, h2, h3, ul, ol, li, form, a {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Tabell på laboration.html*/
+
+/*#content table tr td {*/
+
+    
+/*}*/
+
+/*#table th {*/
+
+/*}*/
+
+/*tfoot {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Lagt till padding för att bulka upp index- och kontaktsidan.*/
+/*#blogg {*/
+
+/*}*/
+
+/*#contact {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Anpassat headerns text*/
+
+/*.headertitle {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Lagt till en bild vid blogginläggen*/
+
+/*h3.entry {*/
+
+/*}*/
+/*.entrypic {*/
+
+/*}*/
+
+/*----------------------------------------*/
+
+/*Formulär*/
+
+/*#form fieldset {*/
+
+/*}*/
+
+/*.formframe {*/
+
+/*}*/
+
+/*.formunit {*/
+
+/*}*/
