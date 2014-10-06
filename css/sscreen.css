@@ -29,9 +29,6 @@ h2 {
 
 #container {
     width: auto;
-    /*max-width: 100%;*/
-    /*overflow: auto;*/
-    /*margin: 0 auto;*/
 }
 
 /*----------------------------------------*/
@@ -48,9 +45,6 @@ h2 {
     background-position: left;
     text-align: center;
 }
-/*#header h1 {*/
-/*    text-align: left;*/
-/*}*/
 
 #navigation {
         width: auto;
@@ -144,9 +138,6 @@ img {
     max-width: 100%;
 }
 
-/*#biopic{*/
-/*    max-width: 100%;*/
-/*}*/
 
 h3.entry {
     background-image: url(../pics/post.png);
@@ -208,6 +199,10 @@ h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     alignment-adjust: middle;
+}
+
+#form input {
+    max-width: 95%;
 }
 /*----------------------------------------*/
 
