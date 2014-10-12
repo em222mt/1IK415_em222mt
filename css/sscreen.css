@@ -151,7 +151,7 @@ nav ul {
     padding: 0;
 }
 
-nav > ul > li:nth-child(1){
+#container > nav > ul > li:nth-child(1) > h3{
     color: black;
     font-weight: bold;
     font-size: 1.2em;
@@ -282,6 +282,10 @@ h3 {
 
 #form input {
     max-width: 95%;
+}
+
+#formtitle {
+    display: none;
 }
 /*----------------------------------------*/
 

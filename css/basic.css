@@ -52,7 +52,7 @@ header h2 {
     border-bottom-left-radius: 30px;
 }
 
-#bloggheader {
+.pageheader {
     margin: 10px 10px 10px 10px;
     text-align: center;
 }
@@ -83,7 +83,7 @@ nav ul {
     padding: 0;
 }
 
-nav > ul > li:nth-child(1){
+#container > nav > ul > li:nth-child(1) > h3{
     color: black;
     font-weight: bold;
     font-size: 1.2em;
@@ -296,5 +296,13 @@ tfoot {
 .formunit {
     float: left;
     width: 100%;
+}
+
+#formtitle {
+    display: none;
+}
+
+#formcontainer {
+    margin-left: 20%;
 }
 /*----------------------------------------*/

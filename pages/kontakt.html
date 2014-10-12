@@ -14,95 +14,106 @@
     <link rel="shortcut icon" href="../pics/favicon.png" type="png">
     <link rel="apple-touch-icon" href="../pics/apple-touch-icon-small.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../pics/apple-touch-icon-big.png">
+    
+        <script>
+        document.createElement("header");
+        document.createElement("hgroup");
+        document.createElement("footer");
+        document.createElement("article");
+        document.createElement("main");
+        document.createElement("section");
+        document.createElement("nav");
+        document.createElement("aside");
+        document.createElement("address");
+    </script>
 </head>
 
     <body>
         <div id="container">
             
-            <div id="header">
+            <header>
+                <h1 class="headertitle">Kontakt</h1>
+            </header>
             
-            <h1 class="headertitle">Kontakt</h1>
+            <nav>
             
-            </div>
+                <ul>
+                    <li><h3>Meny</h3></li>
+                    <li><a href="../index.html">Start</a><a id="home-icon" href="../index.html"></a></li>
+                    <li><a href="laborationer.html">Laborationer</a><a id="work-icon" href="laborationer.html"></a></li>
+                    <li><a href="presentation.html">Presentation</a><a id="bio-icon" href="presentation.html"></a></li>
+                    <li class="active"><a href="kontakt.html">Kontakt</a><a id="contact-icon" href="kontakt.html"></a></li>
+                </ul>
             
-            <div id="navigation">
+            </nav>
             
-            <ul>
-                <li>Meny</li>
-                <li><a href="../index.html">Start</a><a id="home-icon" href="../index.html"></a></li>
-                <li><a href="laborationer.html">Laborationer</a><a id="work-icon" href="laborationer.html"></a></li>
-                <li><a href="presentation.html">Presentation</a><a id="bio-icon" href="presentation.html"></a></li>
-                <li class="active"><a href="kontakt.html">Kontakt</a><a id="contact-icon" href="kontakt.html"></a></li>
-            </ul>
+            <main>
             
-            </div>
-            
-            <div id="content">
-            
-            <div id="contact">
-            
-            <h2>Kontakta mig</h2>
-            
+            <header class="pageheader">
+                <h2>Kontakta mig</h2>
+            </header>
+
             <!-- Formulär börjar här -->
             
-            <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-                <fieldset>
-                    <legend class="formframe">Frågor och feedback</legend>
-                
-                        <label class="formunit" for="namn">Namn:</label>
-                        <input class="formunit" placeholder="För- och efternamn" type="text" name="namn" id="namn" />
-                        
-                        <label class="formunit" for="email">Email:</label>
-                        <input class="formunit" placeholder="Email" type="email" name="email" id="email" />
-                        
-                        <!--kan jag ha value OCH en placeholder här?-->
-                        
-                        <label class="formunit" for="twitter">Twitter:</label>
-                        <input class="formunit" value="@" type="text" name="twitter" id="twitter" />
-                        
-                        <label class="formunit" for="facebook">Facebook:</label>
-                        <input class="formunit" placeholder="Facebook" type="text" name="facebook" id="facebook" />
-                        
-                        
-                        <select name="fråga eller feedback">
-                            <option value="Fråga" selected> Fråga </option>
-                            <option value="Ris"> Ris </option>
-                            <option value="Ros"> Ros </option>
-                        </select>
-                        
-                        
-                        <textarea class="formunit" id="formtext" for="textarea" cols="20" rows="20" placeholder="Skriv din fråga eller kritik här"></textarea>
+            <article id="formcontainer">
+            
+                <header>
+                    <h4 id="formtitle">Formulär</h4>
+                </header>
+            
+                <form id="form" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                    <fieldset>
+                        <legend class="formframe">Frågor och feedback</legend>
                     
-               </fieldset>
-               
-               <fieldset>
-                   <legend class="formframe">Kontakta dig via</legend>
+                            <label class="formunit" for="namn">Namn:</label>
+                            <input class="formunit" placeholder="För- och efternamn" type="text" name="namn" id="namn" />
+                            
+                            <label class="formunit" for="email">Email:</label>
+                            <input class="formunit" placeholder="Email" type="email" name="email" id="email" />
+                            
+                            <!--kan jag ha value OCH en placeholder här?-->
+                            
+                            <label class="formunit" for="twitter">Twitter:</label>
+                            <input class="formunit" value="@" type="text" name="twitter" id="twitter" />
+                            
+                            <label class="formunit" for="facebook">Facebook:</label>
+                            <input class="formunit" placeholder="Facebook" type="text" name="facebook" id="facebook" />
+                            
+                            
+                            <select name="fråga eller feedback">
+                                <option value="Fråga" selected> Fråga </option>
+                                <option value="Ris"> Ris </option>
+                                <option value="Ros"> Ros </option>
+                            </select>
+                            
+                            
+                            <textarea class="formunit" id="formtext" for="textarea" cols="20" rows="20" placeholder="Skriv din fråga eller kritik här"></textarea>
+                        
+                   </fieldset>
                    
-                        <label for="recepientemail">Email:</label>
-                        <input type="checkbox" name="recepientemail" id="recepientemail" />
-                        <label for="recepienttwitter">Twitter:</label>
-                        <input type="checkbox" name="recepienttwitter" id="recepienttwitter" />
-                        <label for="recepientfacebook">Facebook:</label>
-                        <input type="checkbox" name="recepientfacebook" id="recepientfacebook" />
-                
-                </fieldset>
-                
-                <input id="formsubmit" type="submit" value="Skicka" />
-                
-            </form>
+                   <fieldset>
+                       <legend class="formframe">Kontakta dig via</legend>
+                       
+                            <label for="recepientemail">Email:</label>
+                            <input type="checkbox" name="recepientemail" id="recepientemail" />
+                            <label for="recepienttwitter">Twitter:</label>
+                            <input type="checkbox" name="recepienttwitter" id="recepienttwitter" />
+                            <label for="recepientfacebook">Facebook:</label>
+                            <input type="checkbox" name="recepientfacebook" id="recepientfacebook" />
+                    
+                    </fieldset>
+                    
+                    <input id="formsubmit" type="submit" value="Skicka" />
+                    
+                </form>
             
-            </div>
+            </article>
             
-            </div>
+            </main>
             
-            <div id="footer">
-            
+            <footer>
                 <p>Erik Myrsell ansvarar för den här sidan</p>
-                
-                <!--<a href="/" onclick="setActiveStyleSheet(’basic’); return false;">Full site</a>-->
-                <!--<a href="/" onclick="setActiveStyleSheet(’sscreen’); return false;">mobile</a>-->
-                
-            </div>
+            </footer>
             
         </div>
         
