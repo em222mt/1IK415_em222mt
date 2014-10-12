@@ -103,6 +103,27 @@ main > ol:nth-child(7) > li:nth-child(4) > ol > li{
     
 }
 
+.blog {
+    border-bottom: 2px solid #838283;
+}
+
+.comments {
+    background-color: #F9F7FF;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.commentheadline {
+    font-weight: bold;
+}
+
+.commentfooter {
+    font-style: italic;
+}
+
+
 /*----------------------------------------*/
 
 
@@ -216,11 +237,12 @@ h3 {
 
 /*Footer*/
 
-footer {
+#footer {
     border-style: solid;
     border-width: 1px;
     clear: both;
     background-color: #D1D1D1;
+
 }
 /*----------------------------------------*/
 

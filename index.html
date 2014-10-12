@@ -14,6 +14,18 @@
     <link rel="shortcut icon" href="pics/favicon.png" type="png">
     <link rel="apple-touch-icon" href="pics/apple-touch-icon-small.png">
     <link rel="apple-touch-icon" sizes="114x114" href="pics/apple-touch-icon-big.png">
+    
+    <script>
+        document.createElement("header");
+        document.createElement("hgroup");
+        document.createElement("footer");
+        document.createElement("article");
+        document.createElement("main");
+        document.createElement("section");
+        document.createElement("nav");
+        document.createElement("aside");
+        document.createElement("address");
+    </script>
 </head>
 
     <body>
@@ -44,7 +56,7 @@
                 
                 </header>
                 
-                <article>
+                <article class="blog">
                 
                     <header class="blogpost">
                     
@@ -60,10 +72,27 @@
                     <footer class="entryfooter">
                         <p>Erik, 2014-09-28</p>
                     </footer>
+                    
+                    <section class="comments">
+                        <h4>Kommentarer</h4>
+                        
+                        <header class="commentheadline">
+                            Fel fel fel
+                        </header>
+                        
+                        <article class="commenttext">
+                            <p>Tror inte kolumner ska användas till uppgiften.</p>
+                            
+                        </article>
+                        
+                        <footer class="commentfooter">
+                            <p>XvcT</p>
+                        </footer>
+                    </section>
                 
                 </article>
                 
-                <article>
+                <article class="blog">
     
                     <header class="blogpost"> 
                     
@@ -90,81 +119,158 @@
                            Det känns som att om det kan hållas top of mind kommer detta att gå fiiiint.
                         </p>
                         
-                <footer class="entryfooter">                        
-                    <p>Erik, 2014-09-23</p>
+                        <footer class="entryfooter">                        
+                            <p>Erik, 2014-09-23</p>
+                        </footer>
+                        
+                    <section class="comments">
+                        <h4>Kommentarer</h4>
+                        
+                        <header class="commentheadline">
+                            <p>Grisen!</p>
+                        </header>
+                        
+                        <article class="commenttext">
+                            <p>Åhhhh va söt!</p>
+                            
+                        </article>
+                        
+                        <footer class="commentfooter">
+                            <p>Karin</p>
+                        </footer>
+                    </section>
+                
+                    </article>
+                     
+                    <article class="blog">
+        
+                        <header class="blogpost"> 
+                        
+                            <h3 class="entry" id="post3">Videotaggar<a href="#bloggheader">Top</a></h3>
+                            
+                        </header>
+                        
+                            <p>Och här kommer videon</p>
+                                <video class="video" controls="controls" preload="none">
+                                  <source src="videos/trailer_720p.mp4" type="video/mp4">
+                                  <source src="videos/trailer_400p.ogg" type="video/ogg">
+                                <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
+                            </video>
+                        
+                        <p>Tack till <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a> för lånet!</p>
+                        
+                        <footer class="entryfooter">
+                            <p>Erik, 2014-09-13</p>
+                        </footer>
+                        
+                    <section class="comments">
+                        <h4>Kommentarer</h4>
+                        
+                        <header class="commentheadline">
+                            <p>Videon</p>
+                        </header>
+                        
+                        <article class="commenttext">
+                           <p>Hur fick du din video att fungera i smartphones?</p> 
+                        </article>
+                        
+                        <footer class="commentfooter">
+                            <p>Emeli</p>
+                        </footer>
+                    </section>                   
+                    
+                    </article>
+                    
+                    <article class="blog">
+        
+                        <header class="blogpost">
+                        
+                            <h3 class="entry" id="post2">Slösa tid på bilder<a href="#bloggheader">Top</a></h3>
+                            
+                        </header>
+                        
+                            <p>Idag har jag spenderat alldeles för mycket tid på att göra jpg:s och svg:s till labben. Grafisk designer känns avlägset...</p>
+                        <img id="gubbe" src="pics/gubbe.svg" alt="Ansikte gjort av rektanglar">
+                        
+                        <footer class="entryfooter">
+                            <p>Erik, 2014-09-13</p>
+                        </footer>
+                        
+                    <section class="comments">
+                        <h4>Kommentarer</h4>
+                        
+                        <header class="commentheadline">
+                            <p>Verktyget?</p>
+                        </header>
+                        
+                        <article class="commenttext">
+                            <p>Använde du det <a href="https://pixlr.com/">verktyget</a> som Johan tipsade om i kursen?</p>
+                        </article>
+                        
+                        <footer class="commentfooter">
+                            <p>Daniel</p>
+                        </footer>
+                        
+                        <header class="commentheadline">
+                            <p>Verktyget</p>
+                        </header>
+                        
+                        <article class="commenttext">
+                            <p>Ja det gjorde jag. Har du några andra tips?</p>
+                        </article>
+                        
+                        <footer class="commentfooter">
+                            <p>Erik</p>
+                        </footer>
+                    </section>                   
+                        
+                    </article class="blog">
+                    
+                    <article>
+                    
+                        <header class="blogpost">
+                    
+                            <h3 class="entry" id="post1">Up and running? Well, up and crawling perhaps.<a href="#bloggheader">Top</a></h3>
+                            
+                        </header>                    
+                        
+                        <p>Idag har jag börjat med labben för Webbteknisk introduktion. Som helt grön på HTML har det varit en rolig utmaning!
+                           Uppstigning med tuppen, sen hundar, plugga, hundar, jobba, hundar och plugga igen. Det kommer at bli två tuffa år!
+                           Om eller snarare när jag fixar detta tänkar jag nog bjuda mig själv på en glass!
+                        </p>
+                        <p>Efter många om och men tror jag att jag har validerat bort alla fel ur dokumenten presentation och index. Nu håller
+                            vi tummarna!
+                        </p>
+                        
+                        <footer class="entryfooter">
+                            <p>Erik, 2014-09-10</p>
+                        </footer> 
+                        
+                    <section class="comments">
+                        <h4>Kommentarer</h4>
+                        
+                        <header class="commentheadline">
+                            <p>Samma båt</p>
+                        </header>
+                        
+                        <article class="commenttext">
+                            <p>Jag jobbar och är nybliven förälder. Tror kanske att jag måste gå ner lite i tid för att hinna med! =)</p>
+                        </article>
+                        
+                        <footer class="commentfooter">
+                            <p>Jens</p>                            
+                        </footer>
+                    </section>                   
+                        
+                    </article>
+                    
+                </main>
+                
+                <footer id="footer">
+                
+                    <p>Erik Myrsell ansvarar för den här sidan</p>
+                    
                 </footer>
-                
-                </article>
-                 
-                <article>
-    
-                    <header class="blogpost"> 
-                    
-                        <h3 class="entry" id="post3">Videotaggar<a href="#bloggheader">Top</a></h3>
-                        
-                    </header>
-                    
-                        <p>Och här kommer videon</p>
-                            <video class="video" controls="controls" preload="none">
-                              <source src="videos/trailer_720p.mp4" type="video/mp4">
-                              <source src="videos/trailer_400p.ogg" type="video/ogg">
-                            <p>Din webbläsare stödjer inte <code>video</code>-taggen</p>
-                        </video>
-                    
-                    <p>Tack till <a href="http://www.bigbuckbunny.org">Big Buck Bunny</a> för lånet!</p>
-                    
-                    <footer class="entryfooter">
-                        <p>Erik, 2014-09-13</p>
-                    </footer>
-                
-                </article>
-                
-                <article>
-    
-                    <header class="blogpost">
-                    
-                        <h3 class="entry" id="post2">Slösa tid på bilder<a href="#bloggheader">Top</a></h3>
-                        
-                    </header>
-                    
-                        <p>Idag har jag spenderat alldeles för mycket tid på att göra jpg:s och svg:s till labben. Grafisk designer känns avlägset...</p>
-                    <img id="gubbe" src="pics/gubbe.svg" alt="Ansikte gjort av rektanglar">
-                    
-                    <footer class="entryfooter">
-                        <p>Erik, 2014-09-13</p>
-                    </footer>
-                    
-                </article>
-                
-                <article>
-                
-                    <header class="blogpost">
-                
-                        <h3 class="entry" id="post1">Up and running? Well, up and crawling perhaps.<a href="#bloggheader">Top</a></h3>
-                        
-                    </header>                    
-                    
-                    <p>Idag har jag börjat med labben för Webbteknisk introduktion. Som helt grön på HTML har det varit en rolig utmaning!
-                       Uppstigning med tuppen, sen hundar, plugga, hundar, jobba, hundar och plugga igen. Det kommer at bli två tuffa år!
-                       Om eller snarare när jag fixar detta tänkar jag nog bjuda mig själv på en glass!
-                    </p>
-                    <p>Efter många om och men tror jag att jag har validerat bort alla fel ur dokumenten presentation och index. Nu håller
-                        vi tummarna!
-                    </p>
-                    
-                    <footer class="entryfooter">
-                        <p>Erik, 2014-09-10</p>
-                    </footer> 
-                    
-                </article>
-                
-            </main>
-            
-            <footer>
-            
-                <p>Erik Myrsell ansvarar för den här sidan</p>
-                
-            </footer>
                 
             </div>
         </div>

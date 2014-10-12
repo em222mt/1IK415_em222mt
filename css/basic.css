@@ -167,11 +167,30 @@ main, p {
     
 }
 
+.blog {
+    border-bottom: 2px solid #838283;
+}
+.comments {
+    background-color: #F9F7FF;
+
+}
+
+h4 {
+    font-weight: bold;
+}
+.commentheadline {
+    font-weight: bold;
+}
+
+.commentfooter {
+    font-style: italic;
+}
+
 /*----------------------------------------*/
 
 /*Footer*/
 
-footer {
+#footer {
     border-style: solid;
     border-width: 1px;
     clear: both;
