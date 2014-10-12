@@ -134,19 +134,30 @@ li.active {
 
 /*Content*/
 
-#content {
+main {
     float: left;
     max-width: 788px;
     background-color: #FFFFFF;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
-#content, p {
+main, p {
     color: #646466;
     font-family: courier , serif;
     line-height: 130%;
     width: 640px;
+}
+
+.entry a {
+    text-decoration: none;
+    color: #838283;
+    margin-left: 30px;
+    border: 2px solid #838283;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 /*----------------------------------------*/
@@ -191,7 +202,7 @@ h1, h2, h3, ul, ol, li, form, a {
 
 /*Tabell på laboration.html*/
 
-#content table tr td {
+main table tr td {
     width: 40%;
     border: 2px solid #838283;
     text-align: center;
@@ -214,10 +225,6 @@ tfoot {
 /*----------------------------------------*/
 
 /*Lagt till padding för att bulka upp index- och kontaktsidan.*/
-#blogg {
-    padding-right: 30px;
-    padding-left: 30px;
-}
 
 #contact {
     padding-right: 20px;
@@ -239,7 +246,7 @@ tfoot {
 
 /*Lagt till en bild vid blogginläggen*/
 
-h3.entry {
+.entry {
     background-image: url(../pics/post.png);
     background-repeat: no-repeat;
     background-position: top left;
