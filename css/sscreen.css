@@ -1,5 +1,11 @@
 /*Layout*/
 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, 
+section{
+    display: block;
+}
+
 a:link 	    { color: black; }
 a:visited 	{ color: gray; }
 a:focus 	{ color: #838283; }
@@ -84,40 +90,40 @@ header h2 {
 
 /*Navigation*/
 
-#navigation {
+nav {
         width: auto;
 }
 
-#navigation{
+nav{
     color: #646466;
     background-color: #838283;
     max-width: 100%;
 }
 
-#navigation li{
+nav li{
     border-bottom: 1px solid black;
     height: 64px;
     font-size: 1.1em;
 }
 
-#navigation a{
+nav a{
     float: left;
 }
 
-#navigation ul {
+nav ul {
     list-style-type: none;
     margin: 0; 
     padding: 0;
 }
 
-#navigation > ul > li:nth-child(1){
+nav > ul > li:nth-child(1){
     color: black;
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
 }
 
-#navigation a:nth-child(2) {
+nav a:nth-child(2) {
     float: left;
     background-image: url(pics/sprite.png);
     display: block;
@@ -140,7 +146,7 @@ header h2 {
 #contact-icon:hover { background-position: 0 -288px;}
 
 
-#navigation a:nth-child(1){
+nav a:nth-child(1){
     float: right;
     display: block;
     width: 270px;
@@ -151,7 +157,7 @@ header h2 {
     text-decoration: none;
 }
 
-#navigation li:hover:nth-child(n+2) { color: #6495ED; background-color: white;}
+nav li:hover:nth-child(n+2) { color: #6495ED; background-color: white;}
 
 
 
