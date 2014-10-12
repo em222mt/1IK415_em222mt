@@ -25,7 +25,7 @@ a:active 	{ color: #FFFFFF; }
 
 /*Header*/
 
-#header {
+header h1 {
     border-style: solid;
     border-width: 1px;
     width: 958px;
@@ -34,7 +34,21 @@ a:active 	{ color: #FFFFFF; }
     background-repeat: round;
     background-position: left;
     text-indent: 300px;
-    height: 200px;
+    height: 180px;
+}
+
+header h2 {
+    margin: 0 auto;
+    border: 3px solid #838283;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#bloggheader {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 /*----------------------------------------*/
@@ -209,6 +223,7 @@ tfoot {
 /*Anpassat headerns text*/
 
 .headertitle {
+    margin: 0 auto;
     text-indent: 360px;
     color: black;
     font-size: 2.25em;
