@@ -297,6 +297,12 @@ tfoot {
     margin-left: 20%;
 }
 
+#formsubmit
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .vcard {
     max-width: 80%;
     color: #838283;
@@ -332,4 +338,29 @@ tfoot {
     right: 40px;
     
 }
+/*------------------------------------*/
+
+/*Fotogalleri*/
+#gallery {
+    background-color: #6C5D66;
+    margin: 0 auto;
+    overflow: auto;
+    width: 800px;
+    padding: 50px 50px 50px 50px;
+}
+#gallery img {
+    max-width: 150px;
+    padding: 12px 12px 70px 12px;
+    background-color: white;
+    color: #646466;
+    font-family: courier , serif;
+    box-shadow: 10px 10px 5px black;
+    
+}
+
+
+
+
+
+
 /*------------------------------------*/

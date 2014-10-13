@@ -1,0 +1,71 @@
+
+/*Fotogalleri*/
+#gallery {
+    background-color: #6C5D66;
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+    padding: 50px 50px 50px 50px;
+}
+#gallery img {
+    width: 150px;
+    padding: 12px 12px 70px 12px;
+    background-color: white;
+    color: #646466;
+    font-family: courier , serif;
+    box-shadow: 10px 10px 5px black;
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+    z-index: 2;
+    position: relative;
+}
+
+#gallery a:nth-child(4n-7) > img {
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);  
+    z-index: 3;
+    position: relative;
+}
+
+#gallery a:nth-child(3n-7) > img {
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);  
+    z-index: 1;
+    position: relative;
+}
+
+#gallery a {
+    color: #646466;
+    font-family: courier , serif;
+
+}
+
+
+#gallery > a:after {
+    content: "" attr(title) "";
+    color: black;
+    font-family: courier , serif;
+    font-size: 1em;
+    position: absolute;
+    z-index: 4;
+}
+    
+
+#gallery > a > img {
+    -webkit-transition: all 2s;
+    -ms-transition: all 2s;
+    transition: all 2s;
+    position: relative;
+}
+#gallery > a > img:hover {
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); 
+    width: 250px;
+    position: relative;
+    box-shadow: 5px 5px 2px grey;
+    z-index: 4;
+}
