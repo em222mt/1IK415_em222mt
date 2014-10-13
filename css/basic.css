@@ -247,15 +247,6 @@ tfoot {
 
 /*----------------------------------------*/
 
-/*Lagt till padding för att bulka upp index- och kontaktsidan.*/
-
-#contact {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-/*----------------------------------------*/
-
 /*Anpassat headerns text*/
 
 .headertitle {
@@ -282,7 +273,7 @@ tfoot {
 
 /*----------------------------------------*/
 
-/*Formulär*/
+/*Formulär och hcard*/
 
 #form fieldset {
     width: 350px;
@@ -305,4 +296,40 @@ tfoot {
 #formcontainer {
     margin-left: 20%;
 }
-/*----------------------------------------*/
+
+.vcard {
+    max-width: 80%;
+    color: #838283;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #838283;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    float: left;
+
+}
+
+#hcard-Erik-Hans-Gustav-Myrsell > img {
+    
+    max-width: 96%;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #838283;
+}
+
+#hcard-Erik-Hans-Gustav-Myrsell > a.url.fn.n {
+    text-decoration: none;
+}
+
+#hcard-Erik-Hans-Gustav-Myrsell > p {
+    position: relative;
+    right: 40px;
+    
+}
+/*------------------------------------*/
