@@ -1,7 +1,6 @@
 
 /*Fotogalleri*/
 main {
-    /*background-color: #6C5D66;*/
     margin: 0 auto;
     overflow: auto;
 }
@@ -90,14 +89,13 @@ main {
 }
 
 nav {
-    margin: 15px 50px 15px 15px;
     float: right;
     color: #FFF37F;
     font-weight: bold;
     font-family: 'Waiting for the Sunrise', cursive;
     font-size: 6em;
     position: fixed;
-    right: 450px;
+    right: 100px;
     top: 730px;
     text-decoration: none;
 }
